@@ -19,5 +19,5 @@ firewall-cmd --permanent --add-port=53/udp
 firewall-cmd --reload
 
 nslookup www.google.com
-echo "ban gyi bc"
+echo "ban gyi script"
 
