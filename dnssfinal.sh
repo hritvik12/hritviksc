@@ -6,7 +6,7 @@ yum install bind* -y
 
 wget https://github.com/hritvik12/hritviksc/blob/master/named.conf -P /etc/
 
-wget https://github.com/hritvik12/hritviksc/blob/master/forward1 -P /var/named/
+wget https://raw.githubusercontent.com/hritvik12/hritviksc/master/forward1 -P /var/named/
 
 chgrp named	/var/named/forward1
 
