@@ -12,6 +12,10 @@ wget https://raw.githubusercontent.com/hritvik12/hritviksc/master/index.html
 
 cp index.html /var/www/html/
 
+rm /etc/hosts
+
+rm /etc/resolv.conf
+
 systemctl restart httpd
 
 curl www.google.com
