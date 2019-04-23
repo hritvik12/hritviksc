@@ -6,4 +6,4 @@ $TTL 1D
 					1W	; expire
 					3H )	; minimum
 google.com.	IN	NS	www.google.com.
-www		IN	A	35.244.20.96 
+www		IN	A	35.244.11.61
