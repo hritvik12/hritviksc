@@ -20,10 +20,6 @@ firewall-cmd --permanent --add-port=53/udp
 
 firewall-cmd --reload
 
-rm /etc/hosts
-
-rm /etc/resolv.conf
-
 nslookup www.google.com
 echo "ban gyi script"
 
